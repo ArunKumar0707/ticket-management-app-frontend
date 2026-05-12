@@ -180,3 +180,8 @@ export interface TicketFilter {
   sortBy?: string;
   sortDir?: string;
 }
+export interface ProjectRequest {
+  name: string;
+  description?: string;
+  status?: string;
+}
